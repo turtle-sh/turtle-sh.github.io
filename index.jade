@@ -1,0 +1,48 @@
+!!!
+head
+  link(rel="stylesheet", href="style.css")
+body
+  .main
+    .title
+      .hero
+        h1 turtle
+        p Simple, fun command line
+        hr
+    p Turtle is a "shell" for javascript scripts. It provides some structure to make writing command-line scripts fun.
+    p For instance, here's a date script, located at 
+      a(href="#") github.com/turtle-sh/date
+      span :
+    pre.
+      name: "date",
+
+      fn: function() {
+        this.stdout.write( new Date() );
+        this.exit();
+      }
+    pre.
+      $ date
+      > Mon Oct 07 2013 20:02:02 GMT-0400 (EDT)
+    p Scripts can be requirejs'd in using the "install" script:
+    pre.
+      $ install turtle-sh/date
+      > installing "date" from https://github.com/turtle-sh/date
+      > date installed
+    p The 
+      code index.js
+      span  file of a script acts as the equivalent of a package.json (Node.js) or manifest.json (Chrome Apps) file; its properties include some properties useful to command-line scripts:
+    h3 tagLine
+    pre.
+      name: "date",
+      tagLine: "display date and time"
+    p
+    pre.
+      $ whatis date
+      > date  - display date and time
+    h3 version
+    pre.
+      name: "date",
+      version: "0.1.0"
+    p
+    pre.
+      $ date -v
+      > v0.1.0
