@@ -8,11 +8,12 @@ key.setScope('default');
 
 var coreCommands = [
   'pipe',
-  'ls',
+  'turtle-sh/ls',
   'pwd',
-  //'turtle-sh/cd',
-  'cd',
-  'cat',
+  'turtle-sh/cd',
+  //'cd',
+  'turtle-sh/cat',
+  //'cat',
   'mount',
   'turtle-sh/date',
   'ace',
