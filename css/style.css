@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+body {
+  position:relative;
+  height: 100%;
+  background-color: #222;
+  color: white;
+  font-family: courier;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  margin: 0;
+}
+.ps {
+  padding-right: .4em;
+}
+p, span {
+  white-space: pre;
+  tab-size: 2;
+  word-wrap: break-word;
+}
+p, form.command {
+  margin: 0;
+  padding: 0em 0.2em;
+}
+
+form.command input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  background-color: inherit;
+  color: inherit;
+  font:inherit;
+  -webkit-font-smoothing: antialiased;
+  width: 90%;
+}
+
+i {
+  color: inherit;
+}
+
+.fill {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.turtle {
+  width: 100%;
+  height: 100%;
+}

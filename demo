@@ -1,0 +1,2 @@
+zip -r build/app.nw ./* -x "build" ".*" "/*/.*" "/**/.*"
+~/opt/bin/node-webkit.app/Contents/MacOS/node-webkit build/app.nw
