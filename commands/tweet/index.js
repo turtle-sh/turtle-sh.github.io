@@ -1,6 +1,6 @@
 var credentials = {
   key: "gcaf1UiVcLDhH1SUhLcnbw",
-  secret: "h39lvSKNPb7ZRUcqu2BsMvP0Qgvzh63itZ2YsbMpI",
+  secret: "",
   request_token: "https://api.twitter.com/oauth/request_token"
 }
 
