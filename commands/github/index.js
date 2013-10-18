@@ -8,7 +8,7 @@
 var credentials = {
   client_id: "6ffd5228756b80d86c82",
   redirect_uri: 'https://' + chrome.runtime.id + '.chromiumapp.org/',
-  client_secret: "0a030a6e9a8eb42eb66cc099a100b953e1069577"
+  client_secret: ""
 };
 
 function getCode() {
